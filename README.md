@@ -43,7 +43,93 @@ See image(daaba kisi machine me jab chalta hai toh uska 1 instance create hota h
 ### Docker Lifecycle:
 ![image](https://github.com/user-attachments/assets/3be049de-9e3d-4fb2-8b58-4b62c69353d8)
 
+## Use Cases:
 
+### Microservices Architecture
+
+Description: Microservices break down applications into smaller, independent services,
+
+each running in its own container.
+
+#### Benefits:
+Simplifies deployment, scaling, and maintenance. Each service can be
+
+developed, updated, and deployed independently.
+
+
+### Continuous Integration and Continuous Deployment (CI/CD)
+Description: Docker ensures a consistent environment from development through testing
+
+to production.
+
+#### Benefits: 
+Streamlines the CI/CD pipeline, reduces discrepancies between environments,
+
+and speeds up testing and deployment processes.
+
+
+### Cloud Migration
+
+• Description: Containerizing applications to move them to the cloud.
+
+#### Benefits:
+Simplifies the migration process, allows applications to run consistently across
+
+different cloud providers, and optimizes resource usage.
+
+
+### Scalable Web Applications
+
+• Description: Deploying web applications in containers for easy scaling.
+
+Benefits: Simplifies scaling up or down based on traffic, ensures consistent deployment,
+
+and enhances resource utilization.
+
+
+### Testing and QA
+
+• Description: Creating consistent environments for testing applications.
+
+Benefits: Ensures tests are run in environments identical to production, speeds up the
+
+setup of test environments, and facilitates automated testing.
+
+
+### Machine Learning and AI
+
+• Description: Deploying machine learning models and AI applications in containers.
+
+Benefits: Ensures consistency in the runtime environment, simplifies scaling of model
+
+training and inference, and facilitates collaboration and reproducibility.
+
+
+### API Development and Deployment
+
+• Description: Developing and deploying APIs in containers.
+
+Benefits: Ensures APIs run consistently across environments, simplifies scaling, and
+
+improves deployment speed and reliability.
+
+
+![image](https://github.com/user-attachments/assets/b7aa1feb-bf22-4816-bf75-a4fcd897f958)
+## Pulling docker image to our Machine
+go to docker hub>search image >copy the command(similar to docker pull hello-world) > paste inside docker dekstop terminal.
+
+### Pulling streamlit application inside docker dekstop
+go to docker hub>search image >copy the command(similar to docker pull hello-world) > paste inside docker dekstop terminal(now it will downloaded).
+
+>run this command docker run -p 8501:8501 image_name > now run "localhost 8501" in google>your app will open.
+
+![image](https://github.com/user-attachments/assets/549d8f2c-d968-4fe2-a4d5-8795b7a08650)
+
+
+
+In a nut shell we learnt how to pull image from Docker Hub and run an application using docker dekstop.
+
+
+# Dockerising Application & Pushing to Docker Hub
 Video link:https://youtu.be/GToyQTGDOS4?si=cGNuXO-N7nEgPTcC
-(left:35:39)
-
+(left:1:02:00)
