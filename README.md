@@ -131,5 +131,32 @@ In a nut shell we learnt how to pull image from Docker Hub and run an applicatio
 
 
 # Dockerising Application & Pushing to Docker Hub
+(Sample project is fastapi docker image is create see files)
+
+## A.Dockerising Application
+Step 1.Build an application inside any directory(Make sure its not inside the OneDrive folder because it restricts docker to build docker image due to permission,etc issue) 
+
+Step 2:Prepare correct Dockerfile
+
+Step 3:Build Docker image (from folder where your Dockerfile is):
+
+![image](https://github.com/user-attachments/assets/ab697ad2-07d6-4c31-91e9-af425d50d4eb)
+
+Step 4:![image](https://github.com/user-attachments/assets/9275a1ea-df8f-4f0a-aaec-be5e1d40f856)
+![image](https://github.com/user-attachments/assets/9275a1ea-df8f-4f0a-aaec-be5e1d40f856)
+
+
+### On succeessful docker image creation,Installed dependencies correctly & Launched the container o/p will be like
+![image](https://github.com/user-attachments/assets/fc2c2f08-23a0-4549-a4af-2941cae36283)
+![image](https://github.com/user-attachments/assets/d36c1a9c-6f02-4ebd-85a6-f9616a6a02b1)
+
+
+## If app is running inside the container:o/p will be
+![image](https://github.com/user-attachments/assets/c956b94f-b5d1-46dd-8ef4-2cefb2523f11)
+
+
+
+
+
 Video link:https://youtu.be/GToyQTGDOS4?si=cGNuXO-N7nEgPTcC
 (left:1:02:00)
