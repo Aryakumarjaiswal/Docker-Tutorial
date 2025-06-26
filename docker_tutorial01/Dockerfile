@@ -10,11 +10,11 @@ FROM python:3.12
 
 #-  Then your instructions (COPY, RUN, etc.) are added on top of it.
 
-WORKDIR /app 
-# This sets the working directory inside the container to /app.
+WORKDIR /
+# Set the working directory inside the container
 
 
-COPY ./app ./app
+COPY ./app /app
 
 #🧠 Summary:
 #Command	   | What it does
@@ -22,6 +22,8 @@ COPY ./app ./app
 #COPY . .	     Copies everything from current dir
 #COPY src/ /app	  Copies src/ into /app inside image
 
+# Copy requirements.txt to the working directory
+COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
