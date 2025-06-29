@@ -24,6 +24,8 @@ Docker is a software platform that allows you to build, test, and deploy applica
 - from there people downloads the image
 - And then developers runs it.
 ![image](https://github.com/user-attachments/assets/1504251c-8b21-48db-83ab-8022452c0468)
+![image](https://github.com/user-attachments/assets/eb7545fd-b80d-462a-9735-5cdd88b55b84)
+![image](https://github.com/user-attachments/assets/3166b153-bb96-4a7c-a556-e955d9a55b08)
 
 ![image](https://github.com/user-attachments/assets/e3ecccbe-6ffd-495a-b1b4-5ec7d1e644b6)
 ![image](https://github.com/user-attachments/assets/813cef05-cc66-489c-be15-22ec387a12ca)
