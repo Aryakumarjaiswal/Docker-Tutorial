@@ -156,9 +156,20 @@ Step 4:![image](https://github.com/user-attachments/assets/9275a1ea-df8f-4f0a-aa
 ## If app is running inside the container:o/p will be
 ![image](https://github.com/user-attachments/assets/c956b94f-b5d1-46dd-8ef4-2cefb2523f11)
 
+## PORT MAPPING
+## 📌 1. Port Mapping Kya Hai?
 
+**Saral shabdon mein:**  
+Port mapping aapke computer (jise **Host** kehte hain) ke port ko Docker container ke andar chal rahi application ke port se jodne ka ek tareeka hai.
 
+**Kyun zaroori hai?**  
+Docker containers apne aap mein **isolated (alag-thalag)** environments hote hain.  
+Bina port mapping ke, aap container ke andar chal rahi application ko apne computer ke browser se access nahi kar sakte.  
+Port mapping ek **pul (bridge)** ki tarah kaam karta hai jo host aur container ko connect karta hai.
 
+---
 
-Video link:https://youtu.be/GToyQTGDOS4?si=cGNuXO-N7nEgPTcC
-(left:1:02:00)
+## 📌 2. Command Ka Format
+
+```bash
+docker run -p <Host_Port>:<Container_Port> <image_name>
