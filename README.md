@@ -156,6 +156,13 @@ Step 4:![image](https://github.com/user-attachments/assets/9275a1ea-df8f-4f0a-aa
 ## If app is running inside the container:o/p will be
 ![image](https://github.com/user-attachments/assets/c956b94f-b5d1-46dd-8ef4-2cefb2523f11)
 
+## B.Container Pushing to Docker Registry:
+```plainetext
+docker login                                      #Step 1: it will authenticate  your docker account
+docker container_name username/container_name:tag #Step 2: let say container_name is container name then,  username/container_name:tag=>                                                                          # eg:aryakumar830/1stpushcontain format me daalo
+docker push username/repo:tag                     #Step 3:push karo
+```
+
 ## PORT MAPPING
 ## 📌 1. Port Mapping Kya Hai?
 
