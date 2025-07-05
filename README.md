@@ -172,4 +172,15 @@ Port mapping ek **pul (bridge)** ki tarah kaam karta hai jo host aur container k
 ## 📌 2. Command Ka Format
 
 ```bash
+
 docker run -p <Host_Port>:<Container_Port> <image_name>
+
+```
+# IMPORTANT OBSERVATIONS..
+
+1. Dockerfile me koi bhi badlav ke baad — nayi image build karo + naya container run karo.
+2. Its recommended to create new directory(eg:app),set it as WORKDIR,copy ALL local files & directory into it.
+![image](https://github.com/user-attachments/assets/92926c45-858c-4d57-bd4f-89bd350c74c2)
+3.write http://localhost/t/docs [where docker run -p t:8000 containername,t is hostport] to acccess backend.
+4.For development dont make debv directory inside OneDrive.
+
